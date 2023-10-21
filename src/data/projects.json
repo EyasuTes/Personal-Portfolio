@@ -1,0 +1,20 @@
+[
+    {
+        "img":"/images/project/project1.webp",
+        "title":"Project 1",
+        "text":"Using Tailwind CSS involves a slightly different approach compared to traditional CSS frameworks. Tailwind is a utility-first.",
+        "github":"https://github.com/EyasuTes/Shoping-Cart-JS"
+    },
+    {
+        "img":"/images/project/project1.webp",
+        "title":"Project 1",
+        "text":"Using Tailwind CSS involves a slightly different approach compared to traditional CSS frameworks. Tailwind is a utility-first.",
+        "github":"https://github.com/EyasuTes/Shoping-Cart-JS"
+    },
+    {
+        "img":"/images/project/project1.webp",
+        "title":"Project 1",
+        "text":"Using Tailwind CSS involves a slightly different approach compared to traditional CSS frameworks. Tailwind is a utility-first.",
+        "github":"https://github.com/EyasuTes/Shoping-Cart-JS"
+    }
+]
