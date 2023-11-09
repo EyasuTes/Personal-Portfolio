@@ -49,10 +49,10 @@ const Navbar = ({setDark,dark}) => {
         
          
         
-        <div onClick={toggleShownav}  className={`dark:hover:bg-black w-11 flex-col gap-1 hover:bg-blue-100 p-2 rounded-md cursor-pointer ${navActive? 'flex':'hidden'}`}>
-            <span className='dark:bg-white  text-black w-7 h-1 bg-black rounded-sm '></span>
-            <span className='dark:bg-white  text-black w-7 h-1 bg-black rounded-sm'></span>
-            <span className='dark:bg-white text-black w-7 h-1 bg-black rounded-sm'></span>
+        <div onClick={toggleShownav}  className={`relative dark:hover:bg-black w-11 flex-col gap-1 hover:bg-blue-100 p-2 rounded-md cursor-pointer ${navActive? 'flex':'hidden'}`}>
+            <span className={`dark:bg-white text-black w-7 h-1 bg-black rounded-sm ${navActive?shownav? '-rotate-45 transform  translate-y-2 transition-all duration-500 ease-in-out  ':'transition-all duration-500 ease-in-out':'transition-all duration-500 ease-in-out'}`}></span>
+            <span className={`dark:bg-white text-black w-7 h-1 bg-black rounded-sm ${navActive?shownav? 'scale-0  transition-all duration-500 ease-in-out': 'transition-all duration-500 ease-in-out':' transition-all duration-500 ease-in-out'}`} ></span>
+            <span className={`dark:bg-white text-black w-7 h-1 bg-black rounded-sm ${navActive?shownav? 'rotate-45 transform  -translate-y-2 transition-all duration-500 ease-in-out':'transition-all duration-500 ease-in-out':'transition-all duration-500 ease-in-out'}`}></span>
         </div>
 
       
