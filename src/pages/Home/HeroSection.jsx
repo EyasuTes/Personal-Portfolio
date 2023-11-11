@@ -30,7 +30,11 @@ export default function HeroSection() {
           networking.
         </p>
         <button className=" hover:text-5e3bee hover:bg-white hover:border-2 hover:border-5e3bee  cursor-pointer w-40 bg-5e3bee text-white rounded-md text-2xl p-2">
-          <a href="https://drive.google.com/file/d/1fA7_hXnNPoB6gSni0kG-AWmN2THWKgxD/view?usp=sharing">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://drive.google.com/file/d/1fA7_hXnNPoB6gSni0kG-AWmN2THWKgxD/view?usp=sharing"
+          >
             RESUME
           </a>
         </button>

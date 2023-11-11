@@ -21,7 +21,11 @@ export default function Portfolio() {
               style={{ objectFit: "cover" }}
               className=" flex  justify-center hover:scale-95 transition-all duration-500 ease-in-out cursor-pointer"
             >
-              <a href={project.website}>
+              <a
+                href={project.website}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={project.img} />
               </a>
             </div>
@@ -35,7 +39,13 @@ export default function Portfolio() {
 
               <div className="dark:text-white absolute flex gap-2 right-4 bottom-2 font-bold text-5e3bee">
                 <div>
-                  <a href={project.github}>View In GitHub</a>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View In GitHub
+                  </a>
                 </div>
 
                 <ArrowUpRight size={24} />

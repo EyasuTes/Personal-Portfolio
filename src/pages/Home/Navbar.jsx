@@ -149,7 +149,11 @@ const Navbar = ({ setDark, dark }) => {
 
       <div className="flex items-center fixed top-10">
         <button className="fixed right-20 bg-5e3bee text-white p-2 rounded-md hover:scale-105 transition-all duration-500 ease-in-out">
-          <a href="https://www.linkedin.com/in/eyasu-araya-b9197a192/">
+          <a
+            href="https://www.linkedin.com/in/eyasu-araya-b9197a192/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Linked In
           </a>
         </button>
