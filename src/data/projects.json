@@ -1,20 +1,23 @@
 [
-    {
-        "img":"/images/project/project1.webp",
-        "title":"Project 1",
-        "text":"Using Tailwind CSS involves a slightly different approach compared to traditional CSS frameworks. Tailwind is a utility-first.",
-        "github":"https://github.com/EyasuTes/Shoping-Cart-JS"
-    },
-    {
-        "img":"/images/project/project1.webp",
-        "title":"Project 1",
-        "text":"Using Tailwind CSS involves a slightly different approach compared to traditional CSS frameworks. Tailwind is a utility-first.",
-        "github":"https://github.com/EyasuTes/Shoping-Cart-JS"
-    },
-    {
-        "img":"/images/project/project1.webp",
-        "title":"Project 1",
-        "text":"Using Tailwind CSS involves a slightly different approach compared to traditional CSS frameworks. Tailwind is a utility-first.",
-        "github":"https://github.com/EyasuTes/Shoping-Cart-JS"
-    }
+  {
+    "img": "/images/project/Film-Finder.png",
+    "title": "Film Finder",
+    "text": "This website uses The Movie Database(TMDB) API to display information about movies and TV shows and enables the user to see descriptions about the movies and save the movies into a myList page. This website was made using React and tailwindcss. and includes css functionalities such as transitions and animations",
+    "github": "https://github.com/EyasuTes/Movie-Application",
+    "website": "https://movie-application-seven-delta.vercel.app/"
+  },
+  {
+    "img": "/images/project/spareParts.png",
+    "title": "Spare Parts Shopping",
+    "text": "This is a car parts shopping website, made with react and tailwindcss. enables adding products to cart by using the react context hook. ",
+    "github": "https://github.com/EyasuTes/Shoping-Cart-JS",
+    "website": "https://shoping-cart-js.vercel.app/"
+  },
+  {
+    "img": "/images/project/chat.png",
+    "title": "Real Time Messaging app",
+    "text": "This website is a messaging app that uses socket.io for real time messaging. it is a full stack project using mongodb as a database and express js for the backend. uses JWT authentication for user sign up or login. and bcrypt for password encryption. frontend is deployed on vercel.com and backend is deployed on render.com",
+    "github": "https://github.com/EyasuTes/MessageApp-3.0",
+    "website": "https://message-app-3-frontend-u37l.vercel.app/"
+  }
 ]

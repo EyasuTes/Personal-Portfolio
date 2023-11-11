@@ -1,26 +1,22 @@
 [
-    {
-        "img":"/images/Expertise/front-end.png",
-        "title":"Front-End",
-        "text":"Using Tailwind CSS involves a slightly different approach compared to traditional CSS frameworks. Tailwind is a utility-first."
-
-    },
-    {
-        "img":"/images/Expertise/front-end.png",
-        "title":"Front-End",
-        "text":"Using Tailwind CSS involves a slightly different approach compared to traditional CSS frameworks. Tailwind is a utility-first."
-
-    },
-    {
-        "img":"/images/Expertise/front-end.png",
-        "title":"Front-End",
-        "text":"Using Tailwind CSS involves a slightly different approach compared to traditional CSS frameworks. Tailwind is a utility-first."
-
-    },
-    {
-        "img":"/images/Expertise/front-end.png",
-        "title":"Front-End",
-        "text":"Using Tailwind CSS involves a slightly different approach compared to traditional CSS frameworks. Tailwind is a utility-first."
-
-    }
+  {
+    "img": "/images/Expertise/front-end.png",
+    "title": "Front-End",
+    "text": " Proficient in HTML, CSS, and JavaScript, with alot of experience in using React, Tailwind CSS, and Bootstrap. Experienced in leveraging various libraries and npm packages. Capable of working with APIs.  "
+  },
+  {
+    "img": "/images/Expertise/back-end.jpg",
+    "title": "Back-End",
+    "text": "well-versed in Node.js, Express.js, and MongoDB. With a strong grasp of authentication protocols. Skillful in organizing code through the implementation of efficient routes, controllers, and models."
+  },
+  {
+    "img": "/images/Expertise/Networking.jpg",
+    "title": "Networking",
+    "text": "strong understanding of designing/implementing network infrastructures. well-practiced in configuring protocols and technologies like PPP, PPPOE, OSPF, BGP,MPBGP, MPLS, ISIS, EIGRP, and VPN."
+  },
+  {
+    "img": "/images/Expertise/cloud1.webp",
+    "title": "Cloud Computing",
+    "text": "Worked as a cloud computing intern in Huawei Telecom in Dubai. During internship i worked on servers, storage and the network connection between them. i used fussion compute virtualization software for server virtualization and configured the virtual ports to allow communication between VMs when necessary. also have experience using AWS and Google Cloud services"
+  }
 ]
