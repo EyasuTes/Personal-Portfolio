@@ -34,7 +34,8 @@ export default function AboutMe() {
             networking and web development. Currently i am looking for job
             opportunities With a global perspective and a commitment to
             continuous learning, I am ready for the next chapter in my life,
-            poised to make a meaningful impact. You can find my Contacts bellow.
+            poised to make a meaningful impact. You can find my contact info
+            bellow.
           </p>
         </div>
       </div>

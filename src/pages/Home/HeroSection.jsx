@@ -27,7 +27,7 @@ export default function HeroSection() {
           I'm Eyasu Araya, a passionate MERN (MongoDB, Express, React, Node.js)
           full-stack developer with a keen interest in creating robust and
           innovative web applications. With a solid foundation in computer
-          networking.
+          networking and Cloud Computing.
         </p>
         <button className=" hover:text-5e3bee hover:bg-white hover:border-2 hover:border-5e3bee  cursor-pointer w-40 bg-5e3bee text-white rounded-md text-2xl p-2">
           <a
