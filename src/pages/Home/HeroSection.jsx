@@ -33,9 +33,9 @@ export default function HeroSection() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1fA7_hXnNPoB6gSni0kG-AWmN2THWKgxD/view?usp=sharing"
+            href="https://drive.google.com/file/d/1DIVSCf6knJaePduaIh1A2vssp0SFxj_a/view?usp=sharing"
           >
-            RESUME
+            CV
           </a>
         </button>
       </div>
