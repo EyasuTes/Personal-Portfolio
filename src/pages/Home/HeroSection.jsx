@@ -29,15 +29,16 @@ export default function HeroSection() {
           innovative web applications. With a solid foundation in computer
           networking and Cloud Computing.
         </p>
-        <button className=" hover:text-5e3bee hover:bg-white hover:border-2 hover:border-5e3bee  cursor-pointer w-40 bg-5e3bee text-white rounded-md text-2xl p-2">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1DIVSCf6knJaePduaIh1A2vssp0SFxj_a/view?usp=sharing"
-          >
+
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://drive.google.com/file/d/1rlf-hVaOEsI0E1MSoVB11OnRWGi6OD4j/view?usp=sharing"
+        >
+          <button className=" hover:text-5e3bee hover:bg-white hover:border-2 hover:border-5e3bee  cursor-pointer w-40 bg-5e3bee text-white rounded-md text-2xl p-2">
             CV
-          </a>
-        </button>
+          </button>
+        </a>
       </div>
       <div className="lg:flex-1 flex justify-end lg:flex-end order-first lg:order-last">
         <img
