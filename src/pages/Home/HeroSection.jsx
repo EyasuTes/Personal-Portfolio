@@ -33,7 +33,7 @@ export default function HeroSection() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1rlf-hVaOEsI0E1MSoVB11OnRWGi6OD4j/view?usp=sharing"
+          href="https://drive.google.com/file/d/1rdnh87pWw_Ka-FVeHxEAChdjijrW5583/view?usp=sharing"
         >
           <button className=" hover:text-5e3bee hover:bg-white hover:border-2 hover:border-5e3bee  cursor-pointer w-40 bg-5e3bee text-white rounded-md text-2xl p-2">
             CV
