@@ -19,23 +19,44 @@ export default function AboutMe() {
           </div>
 
           <p className="dark:text-white">
-            i am a soon-to-be graduate in Computer Networking with a GPA of 3.91
-            from Higher Colleges of Technology. I am a self-taught MERN stack
-            developer and the first prize winner of the Huawei ICT Networking
-            Competition in Shenzhen, China. Holding a CCNA certification, my
-            academic excellence is complemented by hands-on experience and a
-            keen interest in technology.
-          </p>
-          <p className="dark:text-white">
-            Beyond the classroom, I've immersed myself in full-stack
-            development, finding joy in creating dynamic web applications. As I
-            approach graduation, I am eager to apply my academic achievements
-            and practical skills to contribute to the dynamic field of computer
-            networking and web development. Currently i am looking for job
-            opportunities With a global perspective and a commitment to
-            continuous learning, I am ready for the next chapter in my life,
-            poised to make a meaningful impact. You can find my contact info
-            bellow.
+            <strong>About Me:</strong>
+            <br />
+            Hi, I'm Eyasu Araya, an AI enthusiast and recent graduate with a
+            degree in IT Networking (GPA: 3.91). Self-taught in MERN Stack and
+            AI development, I'm passionate about leveraging technology for
+            transformative advancements.
+            <br />
+            <br />
+            <strong>Educational Background:</strong>
+            <br />I earned my Bachelor's degree in IT Networking from the Higher
+            Colleges of Technology in the UAE, graduating with a notable GPA of
+            3.91 in December 2023. As a lifelong learner, I took on the role of
+            a self-taught MERN Stack Developer, showcasing my skills through
+            projects like my personal portfolio website where I utilized HTML,
+            CSS, JavaScript, React, and Tailwind CSS.
+            <br></br>
+            <br />
+            <strong>AI Enthusiast and Developer:</strong>
+            <br />
+            <br />
+            Driven by a passion for artificial intelligence, I embarked on a
+            self-taught journey in AI development. My commitment is reflected in
+            certifications from SAMSUNG INNOVATION CAMPUS and completion of
+            courses on Coursera, including Mathematics for Machine Learning and
+            Data Science Specialization and Machine Learning Specialization.
+            <br />
+            <br />
+            <strong>Certifications and Honors:</strong> <br />
+            CCNA and Project Management certified. Distinguished scholarship
+            recipient, Huawei ICT competition award.
+            <br />
+            <br />
+            <strong>Skills: </strong>
+            <br />
+            Languages: JavaScript, HTML/CSS, Python, Java.
+            <br />
+            Web/AI Frameworks and tools: React, Redux, TensorFlow, PyTorch, Git,
+            MongoDB, AWS, VS-Code.
           </p>
         </div>
       </div>

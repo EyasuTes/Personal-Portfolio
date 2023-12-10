@@ -18,5 +18,10 @@
     "img": "/images/Expertise/cloud1.webp",
     "title": "Cloud Computing",
     "text": "Worked as a cloud computing intern in Huawei Telecom in Dubai. During internship i worked on servers, storage and the network connection between them. i used fussion compute virtualization software for server virtualization and configured the virtual ports to allow communication between VMs when necessary. also have experience using AWS and Google Cloud services"
+  },
+  {
+    "img": "/images/Expertise/ai.webp",
+    "title": "AI",
+    "text": "Proven track record in machine learning and deep learning, proficient in Python, TensorFlow, and PyTorch. Leveraging technical expertise to drive transformative advancements in AI technology. "
   }
 ]

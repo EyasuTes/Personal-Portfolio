@@ -19,5 +19,12 @@
     "text": "This website is a messaging app that uses socket.io for real time messaging. it is a full stack project using mongodb as a database and express js for the backend. uses JWT authentication for user sign up or login. and bcrypt for password encryption. frontend is deployed on vercel.com and backend is deployed on render.com",
     "github": "https://github.com/EyasuTes/MessageApp-3.0",
     "website": "https://message-app-3-frontend-u37l.vercel.app/"
+  },
+  {
+    "img": "/images/project/chatsum.png",
+    "title": "AI Chat Summarizer",
+    "text": "This project enables users to summarize a large dialogue text, allowing for efficient information extraction and review. It is built using the Pegasus LLM model and has been fine-tuned using a targeted dataset to optimize its performance for summarizing chat conversations. ",
+    "github": "https://github.com/EyasuTes/MessageApp-3.0",
+    "website": "https://huggingface.co/spaces/SmonF/Dialogue_summarizer"
   }
 ]
