@@ -3,15 +3,15 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Homescreen/Home";
 import Navbar from "./pages/Home/Navbar";
-
+import { useThemeContext } from "./context/contex";
 export default function App() {
-  const [dark, setDark] = useState(true);
+  const { darkTheme } = useThemeContext();
 
   return (
-    <div className={`w-full ${dark ? "dark" : ""}`}>
+    <div className={`w-full ${darkTheme ? "dark" : ""} `}>
       <Router>
         <div>
-          <Navbar setDark={setDark} dark={dark} />
+          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="*" element={<div>404 Not Found</div>} />

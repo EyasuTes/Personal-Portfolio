@@ -2,42 +2,52 @@ import { Sun, Moon } from "phosphor-react";
 import React from "react";
 import { useState, useEffect } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-
-const Navbar = ({ setDark, dark }) => {
+import { useThemeContext } from "../../context/contex";
+const Navbar = () => {
+  const { setDarkTheme, darkTheme, loaded, setRoll } = useThemeContext();
   const [navActive, setNavActive] = useState(false);
   const [shownav, setShownav] = useState(false);
 
   function changeTheme() {
-    setDark((prevDark) => !prevDark);
+    setDarkTheme((prevDark) => !prevDark);
   }
   function toggleShownav() {
     setShownav(!shownav);
   }
   useEffect(() => {
+    // const timer = setTimeout(() => {
+    //   setLoaded(true);
+    // }, 200);
+
+    // const rollTimer = setTimeout(() => {
+    //   setRoll(true);
+    // }, 700);
+
     const handleResize = () => {
       if (window.innerWidth <= 700) {
         setNavActive(true);
       } else {
         setNavActive(false);
-        setShownav(false);
       }
     };
 
+    handleResize();
+
     window.addEventListener("resize", handleResize);
+
     return () => {
+      // clearTimeout(timer);
+      // clearTimeout(rollTimer);
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
-  useEffect(() => {
-    if (window.innerWidth <= 700) {
-      setNavActive(true);
-    }
   }, []);
 
   return (
     <nav
       style={{ zIndex: "5" }}
-      className={`dark:bg-gray-800  flex box-border fixed top-0 left-0 right-0 bg-white shadow-md justify-between px-12 lg:px-32 py-6 ${
+      className={`${
+        loaded ? "animate-slideDown" : "opacity-0"
+      } dark:bg-gray-800  flex box-border fixed top-0 w-screen bg-white shadow-md justify-between px-6 lg:px-32 py-2 ${
         shownav
           ? navActive
             ? "flex-col gap-4"
@@ -81,7 +91,7 @@ const Navbar = ({ setDark, dark }) => {
       </div>
 
       <div
-        className={` gap-4 transition-all ease-in-out duration-300 ${
+        className={` gap-4 text-lg transition-all ease-in-out duration-300 ${
           navActive ? (shownav ? "flex flex-col  " : " hidden") : "flex"
         } `}
       >
@@ -147,8 +157,8 @@ const Navbar = ({ setDark, dark }) => {
         </Link>
       </div>
 
-      <div className="flex items-center fixed top-10">
-        <button className="fixed right-20 bg-5e3bee text-white p-2 rounded-md hover:scale-105 transition-all duration-500 ease-in-out">
+      <div className="fixed right-10 flex items-center gap-4 py-4">
+        <button className="  bg-5e3bee text-white p-1 rounded-md hover:scale-105 transition-all duration-500 ease-in-out">
           <a
             href="https://www.linkedin.com/in/eyasu-araya-b9197a192/"
             target="_blank"
@@ -159,9 +169,13 @@ const Navbar = ({ setDark, dark }) => {
         </button>
         <div
           onClick={changeTheme}
-          className="fixed right-4 hover:scale-110 transition-all duration-500 ease-in-out"
+          className=" hover:scale-110 transition-all duration-500 ease-in-out"
         >
-          {dark ? <Sun className="text-white" size={32} /> : <Moon size={32} />}
+          {darkTheme ? (
+            <Sun className="text-white" size={32} />
+          ) : (
+            <Moon size={32} />
+          )}
         </div>
       </div>
     </nav>
